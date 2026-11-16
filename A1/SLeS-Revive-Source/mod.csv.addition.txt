@@ -1,0 +1,2 @@
+# Add this rawfile entry to A1/promod4-master-orignal/mod.csv
+rawfile,maps/mp/gametypes/revive.gsc
