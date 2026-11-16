@@ -10,8 +10,8 @@
  * - Health is set to 100.
  */
 
-#include common_scripts\\utility;
-#include maps\\mp\\_utility;
+#include common_scripts\utility;
+#include maps\mp\_utility;
 
 setup()
 {
@@ -87,7 +87,7 @@ reviveDeadTeammate(deadPlayer, trigger)
 	livesBefore = deadPlayer.pers["lives"];
 
 	// Promod4 owns the spawn pipeline and S&D spawnpoint selection.
-	deadPlayer maps\\mp\\gametypes\\_globallogic::spawnPlayer();
+	deadPlayer maps\mp\gametypes\_globallogic::spawnPlayer();
 
 	deadPlayer.pers["lives"] = livesBefore;
 	deadPlayer.maxhealth = 100;
