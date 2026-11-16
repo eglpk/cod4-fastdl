@@ -24,7 +24,7 @@ main()
 		setDvar( "scr_game_allowrevive", 1 );
 
 	if ( getDvarInt( "scr_game_allowrevive" ) )
-		maps\\mp\\gametypes\\revive::setup();
+		maps\mp\gametypes\revive::setup();
 
 	level.teamBased = true;
 	level.overrideTeamScore = true;
@@ -187,7 +187,8 @@ onSpawnPlayer()
  */
 onPlayerKilled(eInflictor, attacker, iDamage, sMeansOfDeath, sWeapon, vDir, sHitLoc, psOffsetTime, deathAnimDuration)
 {
-	self thread maps\\mp\\gametypes\\revive::onPlayerKilled(attacker, sMeansOfDeath);
+	if ( getDvarInt( "scr_game_allowrevive" ) )
+		self thread maps\mp\gametypes\revive::onPlayerKilled(attacker, sMeansOfDeath);
 }
 
 sd_endGame( winningTeam, endReasonText )
