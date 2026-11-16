@@ -20,6 +20,12 @@ main()
 	maps\mp\gametypes\_callbacksetup::SetupCallbacks();
 	maps\mp\gametypes\_globallogic::SetupCallbacks();
 
+	if ( getDvar( "scr_game_allowrevive" ) == "" )
+		setDvar( "scr_game_allowrevive", 1 );
+
+	if ( getDvarInt( "scr_game_allowrevive" ) )
+		maps\\mp\\gametypes\\revive::setup();
+
 	level.teamBased = true;
 	level.overrideTeamScore = true;
 	level.onPrecacheGameType = ::onPrecacheGameType;
