@@ -1,0 +1,5 @@
+*.iwd
+*.ff
+*.log
+missingasset.csv
+*.tmp*
