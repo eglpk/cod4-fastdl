@@ -18,14 +18,16 @@ Use a separate copy of `A1/promod4-master-orignal`; do not edit either SLeS back
 
 1. Replace `maps/mp/gametypes/sd.gsc` with this package's `maps/mp/gametypes/sd.gsc`.
 2. Copy `maps/mp/gametypes/revive.gsc` into the same gametypes folder.
-3. Add this line to the existing `mod.csv` in the gametype rawfile section:
+3. Add all three lines from `mod.csv.addition.txt` to the existing `mod.csv`:
 
 ```
 rawfile,maps/mp/gametypes/revive.gsc
+weapon,mp/revive_mp
+sound,revive,,all_mp
 ```
 
-4. In the copied Promod4 `sd.gsc`, the setup calls `revive::setup()` only when enabled. This overlay defaults to enabled; set `scr_game_allowrevive 0` in the server config to disable it, or remove the setup call and callback assignment if you want no revive.
-5. Add `scr_revivesound 1` to the server config to play the existing Revive sound, or set it to 0.
+4. In the copied Promod4 `sd.gsc`, the setup calls `revive::setup()` only when enabled. This overlay defaults to enabled; set `scr_game_allowrevive 0` in the server config to disable it.
+5. Add `scr_revivesound 1` to the server config to play the revive sound, or set it to 0.
 
 ## Build
 
