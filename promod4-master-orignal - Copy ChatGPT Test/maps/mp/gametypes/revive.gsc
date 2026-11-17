@@ -15,7 +15,6 @@
 
 setup()
 {
-	precacheItem("revive_mp");
 }
 
 onPlayerKilled(attacker, sMeansOfDeath)
@@ -102,6 +101,4 @@ reviveDeadTeammate(deadPlayer, trigger)
 	if (isDefined(trigger))
 		trigger delete();
 
-	if (getDvarInt("scr_revivesound") == 1)
-		deadPlayer playSound("revive");
 }
