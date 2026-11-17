@@ -1,0 +1,79 @@
+
+Logfile opened on Sun Nov 01 12:01:58 2026
+
+
+^1Error: Could not load stringtable "promod/destructible.csv".
+By using this software you agree to the usage conditions you can find at https://github.com/callofduty4x/CoD4x_Server#usage-conditions-for-server-hosters
+-----------------------------------
+^4Calculate referenced files checksums...
+^4CRC32 for main/iw_11.iwd is e9cf411f Len 151420446
+^4CRC32 for zone/english/code_post_gfx_mp.ff is b144581c Len 89196
+^4CRC32 for zone/english/common_mp.ff is 4ef7a074 Len 13517381
+^4CRC32 for zone/cod4x_patchv2.ff is 3f0998b1 Len 550611
+^4CRC32 for zone/english/mp_backlot.ff is f4cc856b Len 39998207
+Resolving cod4master.activision.com 
+Sending master heartbeat from 0.0.0.0:28961 to 84.21.7.14:20810
+Sending master heartbeat from 0.0.0.0:28961 to 37.221.215.170:20810
+cod4master.activision.com resolved to 185.34.107.159:20810
+^5Hitch warning: 1879 msec frame time
+Masterserver needs token to complete registration
+Sending master heartbeat from [::]:28961 to [2a02:730:1220::187]:20810
+Resolving cod4master.activision.com
+cod4master.activision.com resolved to 185.34.107.159:20800
+Masterserver needs token to complete registration
+Sending master heartbeat from [::]:28961 to [2a01:270:95aa::1]:20810
+Steam: Server connected successfully
+GameServer is not VAC Secure!
+GameServer SteamID: [A:1:53606410]
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Going from CS_FREE to CS_CONNECTED for EAglE num 0 from: 192.168.100.113:28962<=>0.0.0.0:28961
+Sending master heartbeat from 0.0.0.0:28961 to 84.21.7.14:20810
+Sending master heartbeat from 0.0.0.0:28961 to 37.221.215.170:20810
+Masterserver needs token to complete registration
+Masterserver needs token to complete registration
+Sending master heartbeat from [::]:28961 to [2a02:730:1220::187]:20810
+Sending master heartbeat from [::]:28961 to [2a01:270:95aa::1]:20810
+Received packet 0 of stats data
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+^1Error: Could not load stringtable "promod/customStatsTable.csv".
+Player EAglE^7, 0 dropped: EXE_DISCONNECTED
+Sending master heartbeat from 0.0.0.0:28961 to 37.221.215.170:20810
+Sending master heartbeat from 0.0.0.0:28961 to 84.21.7.14:20810
+Masterserver needs token to complete registration
+Masterserver needs token to complete registration
+Sending master heartbeat from [::]:28961 to [2a01:270:95aa::1]:20810
+Sending master heartbeat from [::]:28961 to [2a02:730:1220::187]:20810
+Going from CS_ZOMBIE to CS_FREE for client 0
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+Can not register server on the masterserver. Server needs to provide a valid token in cvar sv_authtoken.
+quitting...
+All plugins have terminated
+----- Server Shutdown -----
+
+With the reason: EXE_SERVERQUIT
+Sending master heartbeat from 0.0.0.0:28961 to 84.21.7.14:20810
+==== ShutdownGame (1) ====
+Sending master heartbeat from 0.0.0.0:28961 to 37.221.215.170:20810
+---------------------------
+Unloading assets from fastfile 'mp_backlot' and deleting all assets
+Unloading assets from fastfile 'cod4x_patchv2' and deleting all assets
+Unloading assets from fastfile 'common_mp' and deleting all assets
+Unloading assets from fastfile 'localized_code_post_gfx_mp' and deleting all assets
+Unloading assets from fastfile 'code_post_gfx_mp' and deleting all assets
+Unloaded fastfile 'mp_backlot'
+PMem_Free( mp_backlot, Low )
+PMem_Free( mp_backlot, High )
+Unloaded fastfile 'cod4x_patchv2'
+PMem_Free( cod4x_patchv2, Low )
+PMem_Free( cod4x_patchv2, High )
+Unloaded fastfile 'common_mp'
+PMem_Free( common_mp, Low )
+PMem_Free( common_mp, High )
+Unloaded fastfile 'localized_code_post_gfx_mp'
+PMem_Free( localized_code_post_gfx_mp, Low )
+PMem_Free( localized_code_post_gfx_mp, High )
+Unloaded fastfile 'code_post_gfx_mp'
+PMem_Free( code_post_gfx_mp, Low )
+PMem_Free( code_post_gfx_mp, High )
