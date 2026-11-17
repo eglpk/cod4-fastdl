@@ -124,8 +124,6 @@ stringtable,promod/destructible.csv
 xmodel,com_floodlight_on
 
 rawfile,maps/mp/gametypes/revive.gsc
-weapon,mp/revive_mp
-sound,revive,,all_mp
 
 
 material,ui_camoskin_brock
