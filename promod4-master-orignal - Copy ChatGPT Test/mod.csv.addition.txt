@@ -1,4 +1,0 @@
-# Add these entries to A1/promod4-master-orignal/mod.csv
-rawfile,maps/mp/gametypes/revive.gsc
-weapon,mp/revive_mp
-sound,revive,,all_mp
